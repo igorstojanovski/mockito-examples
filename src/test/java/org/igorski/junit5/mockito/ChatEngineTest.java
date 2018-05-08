@@ -1,4 +1,4 @@
-package junit5.mockito;
+package org.igorski.junit5.mockito;
 
 import org.igorski.junit5.mockito.mockito.ChatEngine;
 import org.igorski.junit5.mockito.mockito.MessageSender;
