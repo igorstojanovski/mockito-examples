@@ -26,9 +26,6 @@ public class MyCustomEngine implements TestEngine {
 
     @Override
     public void execute(ExecutionRequest executionRequest) {
-        TestDescriptor descriptor = executionRequest.getRootTestDescriptor();
-        Set<? extends TestDescriptor> children = descriptor.getChildren();
-        System.out.println("-*-------------------------");
-        System.out.println(children);
+        System.out.println("Running from a custom engine.");
     }
 }
